@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px auto;
+    font-family: 'Poppins';
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/**Seção Topo*/
+.secao-topo {
+    margin-top: 80px;
+    padding-bottom: 220px;
+    text-align: center;
+    border-bottom: 2px solid #696969;
+}
+
+.imagem-perfil {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+.titulo-topo {
+    font-size: 32px;
+    margin-bottom: 65px;
+}
+
+.secao-topo a {
+    text-align: center;
+    padding: 0;
+    margin: 65px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+/**Seção Sobre*/
+.secao-sobre {
+    padding: 250px 0px;
+    text-align: center;
+    width: 620px;
+    margin: 0 auto;
+}
+
+.texto-sobre h2{
+    font-size: 28px;
+    color: #A020F0;
+    border-bottom: 2px solid #ffffff; /* Borda abaixo do texto */
+    padding-bottom: 10px;
+    display: inline-block; /* Limita a largura da borda ao texto */
+    text-align: center; /* Centraliza o texto */
+    margin-left: 198px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.secao-sobre .texto-sobre {
+    padding: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 25px;
+}
+
+.subtitulo {
+    font-size: 28px;
+    color: #A020F0;
+    border-bottom: 2px solid #ffffff; /* Borda abaixo do texto */
+    padding-bottom: 10px;
+    display: inline-block; /* Limita a largura da borda ao texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto; /* Centraliza o elemento na página */
+}
+
+.texto-sobre {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.texto-sobre h2 {
+    text-align: center;
+}
+
+.p1, .p2, .p3, .p4 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+/**Seção Projetos*/
+.secao-projetos {
+    margin-top: 220px;
+    border-top: 2px solid #696969;
+    margin: 0 auto;
+    color: #ffffff;
+    border-bottom: 2px solid #696969;
+}
+
+.itens-projetos {
+    text-align: center;
+    background-color: #000000;
+    margin: 250px 150px;
+    padding: 75.6px;
+    border-radius: 25px;
+}
+
+.secao-projetos img {
+    width: 250px;
+}
+
+.secao-projetos h2 {
+    margin-bottom: 45px;
+}
+
+.secao-projetos h3 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.imobiliaria {
+    margin-bottom: 200px;
+    margin-left: 50px;
+    border-bottom: 2px solid #696969;
+}
+
+.imobiliaria a{
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.imobiliaria h3 {
+    margin: 10px;
+    margin-right: 60px;
+}
+
+.barbearia {
+    margin-bottom: 200px;
+    margin-right: 25px;
+    border-bottom: 2px solid #696969;
+}
+
+.barbearia a{
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.barbearia h3 {
+    margin-left: 25px;
+}
+
+.padaria {
+    margin-bottom: -80px;
+}
+
+.padaria a{
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.itens-projetos p {
+    margin-left: 35px; /* Margem padrão à esquerda */
+    margin-right: 35px; /* Margem padrão à direita */
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+    padding-bottom: 200px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.imobiliaria, .barbearia, .padaria {
+    margin-bottom: 200px; /* Garantindo o mesmo espaçamento entre os itens */
+}
+
+.barbearia p, .padaria p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imobiliaria p{
+    margin-left: 0px;
+    margin-right: 76.6px;
+}
+
+.span-azul{
+    color: #0000CD;
+    font-weight: bold;
+}
+
+
+/**Seção Habilidades*/
+.secao-habilidades {
+    text-align: center;
+    background-color: #000000;
+    margin: 250px 150px;
+    padding: 75.6px;
+    border-radius: 25px;
+    border-bottom: 2px solid #696969;
+    color: #ffffff;
+}
+
+.secao-habilidades p {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.secao-habilidades span {
+    color: #A020F0;
+    font-weight: bold;
+}
+
+/* Seção Contato */
+.secao-contato {
+    margin-top: 220px;
+    border-top: 2px solid #696969;
+    text-align: center;
+    margin: 100px 0;
+}
+.subtitulo-contato{
+    margin-top: 220px;
+    margin-bottom: 100px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #696969; /* Borda abaixo do texto */
+    padding-bottom: 10px;
+    display: inline-block; /* Limita a largura da borda ao texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.conteudo-contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-contato div {
+    text-align: center;
+    margin: 10px;
+}
+
+.img-contato {
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.conteudo-contato  {
+    font-size: 20px;
+    color: #000000;
+}
+
+.conteudo-contato a{
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilo do botão de voltar ao topo */
+#voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+    display: flex; /* Para alinhar a imagem e o texto */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#voltar-topo img {
+    margin-left: 2.5px; /* Espaço entre a imagem e o texto */
+    width: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 20px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+
+/*Complementar*/
+a:hover {
+    color: #A020F0; /* Muda a cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+.button:hover {
+    background-color: #A020F0; /* Muda o fundo do botão ao passar o mouse */
+    color: white; /* Muda a cor do texto */
+}
