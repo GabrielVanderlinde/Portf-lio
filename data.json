@@ -1,0 +1,24 @@
+{
+    "skills": [
+      {
+        "title": "Front-End (HTML & CSS)",
+        "description": "Expertise em construção de interfaces atrativas e funcionais, utilizando HTML e CSS para organizar e estilizar páginas web de maneira eficiente e moderna, priorizando estética e navegabilidade."
+      },
+      {
+        "title": "Criatividade em Design",
+        "description": "Habilidade em projetar layouts que são ao mesmo tempo funcionais e visualmente agradáveis, focando na experiência do usuário."
+      },
+      {
+        "title": "Aperfeiçoamento Contínuo",
+        "description": "Participação em cursos e certificações, sempre buscando aprender novas tecnologias e técnicas de programação."
+      },
+      {
+        "title": "Trabalho em Equipe",
+        "description": "Boa comunicação e capacidade de colaborar efetivamente com colegas, aprendendo com feedbacks para melhorar constantemente."
+      },
+      {
+        "title": "Postura Profissional",
+        "description": "Comprometido em ser um membro positivo da equipe, disposto a enfrentar desafios e contribuir para um ambiente de trabalho saudável."
+      }
+    ]
+  }
