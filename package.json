@@ -1,0 +1,10 @@
+{
+    "name": "portf-lio",
+    "version": "1.0.0",
+    "scripts": {
+      "start:dev": "serve"
+    },
+    "devDependencies": {
+      "serve": "^14.2.4"
+    }
+}
